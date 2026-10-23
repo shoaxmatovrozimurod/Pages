@@ -18,11 +18,9 @@ const Footer = () => {
                         <li><button className='footer__item-btn'>Create your plan</button></li>
                     </ul>
 
-                    {/* Ijtimoiy tarmoqlar havolalari */}
                     <div className="footer__mediya">
-                        {/* Telegram sahifangiz: t.me/ dan keyin username yoziladi */}
                         <a 
-                            href="https://t.me/foydalanuvchi_nomingiz" 
+                            href="https://t.me/factlens_unesco_bot" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="footer__mediya-link"
@@ -31,9 +29,8 @@ const Footer = () => {
                             <FaTelegramPlane />
                         </a>
 
-                        {/* LinkedIn sahifangiz: /in/ dan keyin profilingiz manzili yoziladi */}
                         <a 
-                            href="https://www.linkedin.com/in/profilingiz" 
+                            href="https://linkedin.com/in/ro-zimurod-shoaxmatov-95a43a401" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="footer__mediya-link"
@@ -42,9 +39,8 @@ const Footer = () => {
                             <FaLinkedinIn />
                         </a>
 
-                        {/* YouTube sahifangiz: @ dan keyin kanal nomi yoki to'liq kanal linki yoziladi */}
                         <a 
-                            href="https://www.youtube.com/@kanalingiz" 
+                            href="https://youtu.be/3U4CARSJFIc" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="footer__mediya-link"
