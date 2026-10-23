@@ -1,8 +1,15 @@
 import React from 'react'
+import './HeroPages.css'
 
 const HeroPages = () => {
   return (
-    <div>HeroPages</div>
+    <section className='hero'>
+        <div className="container">
+            <div className="hero__container">
+
+            </div>
+        </div>
+    </section>
   )
 }
 
