@@ -1,14 +1,21 @@
 import React from 'react'
 import './App.css';
-import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import AboutPages from './Pages/AboutPages/AboutPages';
+import ContactPages from './Pages/ContactPages/ContactPages';
+import Layout from './Components/Layout/Layout';
 
 const App = () => {
   return (
     <>
-    <Header />
-    <Footer />
-    
+      <BrowserRouter>
+        <Routes>
+          <Route element = {<Layout/ >}>
+            <Route path='about' element={<AboutPages />} />
+            <Route path='contact' element={<ContactPages />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

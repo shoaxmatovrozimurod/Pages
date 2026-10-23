@@ -1,0 +1,19 @@
+.header{
+    position: fixed;
+    padding: 13px;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 3px 7px 6px rgb(237, 237, 241);
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 23px;
+}
