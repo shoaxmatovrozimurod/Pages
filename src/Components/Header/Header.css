@@ -4,8 +4,8 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #F3D7B7;
-    box-shadow: 3px 7px 6px rgb(237, 237, 241);
+    background-color: #f9d3a8;
+    box-shadow: 3px 7px 6px #F3D7B7);
 }
 .header__container{
     display: flex;
