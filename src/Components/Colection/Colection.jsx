@@ -8,9 +8,11 @@ const Colection = () => {
         <div className="container">
             <div className="colection__container">
                 <h3 className='colection__title'></h3>
-                <ul>
-                    <li>
+                <ul className='colection__list'>
+                    <li className='colection__item'>
+                        <img src= {Pacet} alt="qog'oz pacet rasmi" />
                         
+
                     </li>
                 </ul>
 
