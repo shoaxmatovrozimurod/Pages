@@ -6,6 +6,7 @@
     right: 0;
     background-color: #f9d3a8;
     box-shadow: 3px 7px 6px #F3D7B7;
+    z-index: 1000; /* Boshqa elementlar ustida turishi uchun */
 }
 .header__container{
     display: flex;
@@ -22,7 +23,7 @@
     font-family: "Roboto";
     color: #333333;
     font-weight: 700;
-    font-style: Bold;
+    font-style: normal; /* "Bold" o'rniga "normal" yoki to'g'ridan-to'g'ri font-weight ishlatiladi */
     font-size: 12px;
     line-height: 100%;
     letter-spacing: 1px;
@@ -53,4 +54,38 @@
 
 .header__item-btn:active {
   transform: translateY(0);
+}
+
+/* ==========================================
+   RESPONSIVLIK (HERO BO'LIMIGA MOS QILIB)
+   ========================================== */
+
+@media (max-width: 992px) {
+  .header {
+    padding: 10px 0;
+  }
+  
+  .header__list {
+    gap: 16px; 
+  }
+
+  .header__item-link {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__list {
+    gap: 12px;
+  }
+
+  .header__item-link {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .header__item-btn {
+    padding: 8px 12px;
+    font-size: 11px;
+  }
 }
