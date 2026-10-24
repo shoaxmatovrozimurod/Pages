@@ -13,7 +13,6 @@ const Hero = () => {
                         <button className='hero__box-btn'>Create your plan</button>
                     </div>
                     <img src={Chashka} width={500} height={500} alt="Chashkadagi koffe" />
-
                 </div>
             </div>
         </section>
