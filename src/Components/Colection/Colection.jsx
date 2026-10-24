@@ -3,7 +3,13 @@ import './Colection.css'
 
 const Colection = () => {
   return (
-    <div>Colection</div>
+    <main className='colection'>
+        <div className="container">
+            <div className="colection__container">
+                
+            </div>
+        </div>
+    </main>
   )
 }
 
