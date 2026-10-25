@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import Logo from './images/logo.png';
 
@@ -13,23 +14,23 @@ const Header = () => {
         <header className='header'>
             <div className="container">
                 <div className="header__container">
-                    <a href="#" className="header__logo-link">
+                    <Link to="/" className="header__logo-link">
                         <img className='header__logo' src={Logo} alt="logotip rasmi" />
-                    </a>
+                    </Link>
 
                     <nav className={`header__nav ${isMenuOpen ? 'active' : ''}`}>
                         <ul className='header__list'>
                             <li>
-                                <a className='header__item-link' href="#" onClick={() => setIsMenuOpen(false)}>Home</a>
+                                <Link className='header__item-link' to="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
                             </li>
                             <li>
-                                <a className='header__item-link' href="#" onClick={() => setIsMenuOpen(false)}>About Us</a>
+                                <Link className='header__item-link' to="/about" onClick={() => setIsMenuOpen(false)}>About Us</Link>
                             </li>
                         </ul>
-                        <button className='header__item-btn header__item-btn--mobile'>Create your plan</button>
+                        <Link to="/about" className='header__item-btn header__item-btn--mobile' onClick={() => setIsMenuOpen(false)}>Create your plan</Link>
                     </nav>
 
-                    <button className='header__item-btn header__item-btn--desktop'>Create your plan</button>
+                    <Link to="/about" className='header__item-btn header__item-btn--desktop'>Create your plan</Link>
 
                     <button className={`burger-btn ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu} aria-label="Menu">
                         <span></span>

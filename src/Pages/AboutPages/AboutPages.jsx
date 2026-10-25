@@ -1,8 +1,15 @@
 import React from 'react'
+import About from '../../Components/About/About';
+import Feature from '../../Components/Feature/Feature';
+import Quality from '../../Components/Quality/Quality';
 
 const AboutPages = () => {
   return (
-    <div><h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, itaque reprehenderit!</h1></div>
+    <>
+    <About />
+    <Feature />
+    <Quality />
+    </>
   )
 }
 

@@ -12,7 +12,7 @@ const Hero = () => {
                         <p className='hero__box-text'> Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
                         <button className='hero__box-btn'>Create your plan</button>
                     </div>
-                    <img src={Chashka} width={500} height={500} alt="Chashkadagi koffe" />
+                    <img src={Chashka} width={500} height={500} alt="Chashkadagi koffee" />
                 </div>
             </div>
         </section>
